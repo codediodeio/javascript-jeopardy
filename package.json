@@ -1,6 +1,8 @@
 {
-  "name": "svelte-app",
+  "name": "javascript-jeopardy",
   "version": "1.0.0",
+  "description": "A Jeopardy-style JavaScript trivia game built with Svelte and Firebase",
+  "private": true,
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
