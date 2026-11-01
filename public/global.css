@@ -50,7 +50,6 @@ input[type="range"] {
 button {
 	color: #333;
 	background-color: #f4f4f4;
-	outline: none;
 }
 
 button:disabled {
@@ -63,4 +62,12 @@ button:not(:disabled):active {
 
 button:focus {
 	border-color: #666;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+	outline: 2px solid rgb(0,100,200);
+	outline-offset: 2px;
 }
